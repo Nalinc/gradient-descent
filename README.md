@@ -41,7 +41,7 @@ and faster. In the same way our momentum term increases for dimensions whose gra
 in the same direction, and reduces updates for dimensions whose gradients change direction.
 This means 1) Faster convergence and 2) Reduced oscillations.
 
-## Nostrav Stocastic Gradient Descent
+## Nesterov Accelerated Gradient Descent 
 named after Yuri Nesterov who saw a problem with momentum.
 Once we get close to our goal point the momentum is usually pretty high.
 And it does not know that it should slow down which it could cause to miss the minima entirely. 
